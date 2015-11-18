@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
 
-<title>Jingwen's Final Writeup</title>
 
-NM2207 Final Project Writeup
+<title>Final Writeup</title>
+
+<h1><b>NM2207 Final Project Writeup</b></h1>
 
 My project is based on an idea of a website for cat lovers where they can play cat-related games, design cat toys and chat with other cat lovers. I used a particular orange cat named Ginger as the main character in the website, and all the games are related to it. This website also allows me to incorporate most of the skills I learned in both lectures and tutorials into one project such as animation, Raphael, event listener, sounds, arrays etc. 
+<br><br> 
 
-1.	Website Layout
-
+<u>1.	Website Layout</u>
+<br><br> 
 Firstly, I started with the flexbox template that was used in class and improvised it using CSS styling. I removed the footer as it was not necessary in my website, changed the colours and transparency of different boxes and organized my content accordingly. I tested out different fonts style for the content in CSS, such as font-family (to set the font type), font-variant (to set the small caps), font-size, font-weight and letter-spacing. I had to use different heading for different sections of words in HTML so as the style them differently. 
+<br><br> 
 
-2.	Game 1: Laser Chase with Ginger
-
-I started with the “click” game we coded for an assignment and decided to improve certain elements to fit the website as well as increase the difficulty of the game. As such, I made the size of the game larger so as to fit into the website layout better and a larger game area to play with. I also changed the background image of the game to a carpet image so as to mimic a cat playing with laser in real life. 
-
+<u>2.	Game 1: Laser Chase with Ginger</u>
+<br><br> 
+I started with the "click" game we coded for an assignment and decided to improve certain elements to fit the website as well as increase the difficulty of the game. As such, I made the size of the game larger so as to fit into the website layout better and a larger game area to play with. I also changed the background image of the game to a carpet image so as to mimic a cat playing with laser in real life. 
+<br><br> 
 The difficulty of the game was increased from level 4 onwards. I set up an array of dots, and initialized them via a map function so that they move in different directions across the game. I also initialize the colours of each dot to a random hue using the hsl color string for the Raphael "fill" attribute. The random coloured dots would move across the screen, making it harder for the user to click on the red dot, hence increasing the difficulty of the game.
+<br><br> 
 
-3.	Game 2: Decorate Ginger’s Play Room 
-
+<u>3.	Game 2: Decorate Ginger's Play Room </u>
+<br><br> 
 I created another Raphael paper so that I can incorporate another skill that I have learnt  - be able to draw on the paper using the mouse. I initially wanted to create a circle object and let the users decorate the circle, before capturing the string of attributes and showcase it as the user-designed dot in the previous game. I failed to do that but I decided to keep the drawing function and use it in another game. 
-
+<br><br> 
 As such, I came up with another idea for users to draw and decorate a playroom for cats. Users are encouraged to decorate the room or draw toys and furniture for cats to play with. I used an image of a cartoon room as the background so as to fit the theme of the game and also added in various images and gifs of cats so as to make the room more aesthetically appealing. I added in sliders for hue, saturation, lightness and stroke-width at the side of the game so that users can manipulate the hsl attributes and create drawings with different colours. A “clear canvas” button was also added in to let users clear their drawings and replay the game over and over again. The background image and cat visuals have to put back on the paper again, to prevent the “clear canvas” button from clearing away the images as well. 
+<br><br> 
 
-4.	Chat function
-
+<u>4.	Chat function</u>
+<br><br> 
 I decided to incorporate the multi-user chat function that I learnt from the last tutorial into my website design, so that cat lovers can share their love and experience with others that are on the website as well. I first had to put the chat box and typing box on the website in HTML, and increased the number of rows and columns for the box so to better fit the website. I also incorporated the socket.io script in the HTML so that the chat function would work when it is served. In order for the code to work on the server, I have to include server file “multiServerExpress.js” into the project directory. I also put a prompt in the code, so that users can type in their username that can be displayed in the chat. 
- 
-5.	Music 
+<br><br> 
 
+<u>5.	Music </u>
+<br><br> 
 I used two different sounds in the game, namely the background music and the game sound. I chose a lively background music so that it would better suit the website and looped it so that it would keep playing as long as the user is still on the site. The other sound, a cat meow sound, was incorporated into the first game where the sound would play to signify the start of a game. 
+<br><br>
 
-
-
-Done by: 
-Lim Jing Wen 
-A0115432U 
+<i>Done by: <br>
+Lim Jing Wen <br>
+A0115432U <br>
 Tutorial Group W4
+</i>
 
-</head>
 </html>
